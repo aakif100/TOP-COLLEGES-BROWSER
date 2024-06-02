@@ -52,4 +52,11 @@ This project uses the [Hipolabs Universities API](http://universities.hipolabs.c
  
   http://universities.hipolabs.com/search?name={country_name}
 
+## Contributing
+
+Contributions are welcome! If you have any ideas or improvements, feel free to open an issue or submit a pull request.  
+
+
+  
+
 
