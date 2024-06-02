@@ -4,6 +4,8 @@
 
 TOP-COLLEGES-BROWSER is a web-based project that lists the top colleges in a specified country along with their website URLs. This project is built using HTML, JavaScript, and an external API to fetch college data.
 <br>
+<br>
+
 (Note: not much styling done to the webstie as its purely based on API working)
 
 ## Features
