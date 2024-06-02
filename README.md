@@ -49,6 +49,7 @@ TOP-COLLEGES-BROWSER is a web-based project that lists the top colleges in a spe
 ## API Reference
 
 This project uses the [Hipolabs Universities API](http://universities.hipolabs.com) to fetch data about universities. The API endpoint used is:
-  http://universities.hipolabs.com/search?name=
+ 
+  http://universities.hipolabs.com/search?name={country_name}
 
 
