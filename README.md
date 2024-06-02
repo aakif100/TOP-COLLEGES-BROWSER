@@ -57,6 +57,8 @@ This project uses the [Hipolabs Universities API](http://universities.hipolabs.c
 Contributions are welcome! If you have any ideas or improvements, feel free to open an issue or submit a pull request.  
 
 
-  
+## Acknowledgements
+
+- [Hipolabs Universities API](http://universities.hipolabs.com) for providing the college data.  
 
 
