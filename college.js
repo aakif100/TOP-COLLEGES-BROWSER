@@ -25,7 +25,7 @@ let webNameRes = document.querySelector("#websiteRes");
 
 
 let url = 'http://universities.hipolabs.com/search?name=';
-Web
+
 
 
 
