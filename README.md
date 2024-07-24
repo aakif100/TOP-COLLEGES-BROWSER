@@ -31,3 +31,44 @@ INSTALLED_APPS = [
 'django.contrib.staticfiles',
 'introduction_app'
 ]
+
+
+
+
+
+introduction_app/views.py
+=======================
+from django.shortcuts import render
+def home(request):
+return render(request, 'introduction_app/home.html')
+def about_us(request):
+return render(request, 'introduction_app/about_us.html')
+def contact_us(request):
+return render(request, 'introduction_app/contact_us.html')
+=======================
+introduction_app/templates/introduction_app/about_us.html
+================================
+{% extends 'introduction_app/layout.html' %}
+{% block title %}About Us - Event Website{% endblock %}
+{% block content %}
+<h2>About Us</h2>
+<p>This is the about us page of Django Lab Class.</p>
+{% endblock %}
+=============================
+introduction_app/templates/introduction_app/contact_us.html
+===============================
+{% extends 'introduction_app/layout.html' %}
+{% block title %}Contact Us - Event Website{% endblock %}
+{% block content %}
+<h2>Contact Us</h2>
+<p>This is the contact us page content.</p>
+<p>Name: Dr.Sayed Abdulhayan.</p>
+<p>Email: sabdulhayan.cs@pace.edu.in .</p>
+<p>Mob: 9986096513.</p>
+<p>Thank you .</p>
+{% endblock %}
+==============================
+introduction_app/templates/introduction_app/home.html
+===================================
+{% extends 'introduction_app/layout.html' %}
+{% block title %}Home - Event Website{% endblock %}
